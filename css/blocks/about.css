@@ -1,0 +1,47 @@
+.about {
+
+}
+
+.about__title {
+  margin: 0 0 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about__picture {
+  display: inline-block;
+  width: 600px;
+  margin-right: 80px;
+}
+
+.about__text-container {
+  display: inline-block;
+  width: 489px;
+  vertical-align: top;
+
+}
+
+.about__text {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.about__blockquote {
+  display: inline-block;
+}
+
+.about__paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.about__paragraph:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+
