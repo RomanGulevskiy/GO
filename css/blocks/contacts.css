@@ -1,6 +1,7 @@
 .contacts {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
 .contacts__title {
@@ -10,6 +11,13 @@
   line-height: 50px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.contacts__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 156px;
 }
 
 .contacts__address, .contacts__phone, .contacts__email {
@@ -29,10 +37,6 @@
 
 .contacts__phone {
   margin-bottom: 11px;
-}
-
-.contacts__email {
-
 }
 
 .contacts__link {
@@ -61,4 +65,22 @@
 
 .contacts__email:before {
   content: url("../../assets/img/icons/mail.svg");
+}
+
+.contacts__copyright {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.contacts__copyright-text {
+  flex-basis: 157px;
+}
+
+.contacts__copyright-text--align-right {
+  text-align: right;
 }

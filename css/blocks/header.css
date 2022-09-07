@@ -1,34 +1,18 @@
 .header {
-  padding-top: 146px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
 .header__container {
-  position: relative;
-  min-height: 823px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header__container:after {
-  content: url("../../assets/img/promo.png");
-  width: 675px;
-  height: 762px;
-  position: absolute;
-  right: 30px;
-  bottom: 0;
+.header__logo {
+
 }
 
-.header__title {
-  margin: 0;
-  font-weight: 900;
-  font-size: 150px;
-  letter-spacing: -0.1em;
-  line-height: 100%;
-  text-transform: uppercase;
-}
+.header__button {
 
-.header__subtitle {
-  margin: 0 0 0 100px;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 50px;
 }
