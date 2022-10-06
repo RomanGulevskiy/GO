@@ -1,13 +1,10 @@
 .social {
-  margin: 0;
+  width: 280px;
   padding: 35px 0 0;
   list-style: none;
   display: flex;
   align-items: center;
-}
-
-.social__item:not(:last-child) {
-  margin-right: 26px;
+  justify-content: space-between;
 }
 
 .social__link {
