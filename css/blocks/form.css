@@ -173,7 +173,20 @@
   border: 3px solid #640AA3;
 }
 
+.form__input--type-radio:focus + .form__label--view-button {
+  padding: 4px 12px 5px;
+  background: #FFFFFF;
+  border: 3px solid #640AA3;
+}
+
 .form__label--view-button:active {
+  padding: 4px 12px 5px;
+  background: #6C0287;
+  border: 3px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.form__input--type-radio:checked + .form__label--view-button {
   padding: 4px 12px 5px;
   background: #6C0287;
   border: 3px solid #FFFFFF;
