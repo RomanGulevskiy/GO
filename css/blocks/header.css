@@ -9,10 +9,29 @@
   align-items: center;
 }
 
-.header__logo {
-
-}
-
 .header__button {
-
+  padding: 12px 32px;
+  background: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 3px solid #CD06FF;
+  border-radius: 10px;
 }
+
+.header__button:hover {
+  background: #6C0287;
+  border-color: #6C0287;
+}
+
+.header__button:focus {
+  background: #6C0287;
+}
+
+.header__button:active {
+  background: #640AA3;
+}
+

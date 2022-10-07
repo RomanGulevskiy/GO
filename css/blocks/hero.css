@@ -86,6 +86,18 @@
   border-radius: 10px;
 }
 
+.hero__button:hover {
+  background: #840AA3;
+}
+
+.hero__button:focus {
+  background: #840AA3;
+}
+
+.hero__button:active {
+  background: #640AA3;
+}
+
 .hero__arrow-button {
   display: block;
   width: 97px;
@@ -100,4 +112,16 @@
   background-image: url('../../assets/img/icons/arrow-down.svg');
   background-repeat: no-repeat;
   border: none;
+}
+
+.hero__arrow-button:hover {
+  background-image: url('../../assets/img/icons/arrow-down-hover.svg');
+}
+
+.hero__arrow-button:focus {
+  outline: 1px solid #CD06FF;
+}
+
+.hero__arrow-button:active {
+  background-image: url('../../assets/img/icons/arrow-down-active.svg');
 }
