@@ -37,6 +37,19 @@
 
 .contacts__phone {
   margin-bottom: 11px;
+  transition: color .2s linear;
+}
+
+.contacts__phone:hover {
+  color: #CD06FF;
+}
+
+.contacts__email {
+  transition: color .2s linear;
+}
+
+.contacts__email:hover {
+  color: #CD06FF;
 }
 
 .contacts__link {
@@ -83,4 +96,12 @@
 
 .contacts__copyright-text--align-right {
   text-align: right;
+}
+
+.contacts__copyright-email {
+  transition: color .2s linear;
+}
+
+.contacts__copyright-email:hover {
+  color: #CD06FF;
 }
