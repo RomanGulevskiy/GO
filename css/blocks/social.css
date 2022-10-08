@@ -15,6 +15,7 @@
 
 .social__link-image {
   fill: #FFFFFF;
+  transition: fill .2s linear;
 }
 
 .social__link-image:hover {

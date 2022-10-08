@@ -17,6 +17,11 @@
   color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: transform .2s linear;
+}
+
+.features__item:hover {
+  transform: scale(1.1);
 }
 
 .features__item--bg-vr {

@@ -84,6 +84,7 @@
   background: #6C0287;
   border: none;
   border-radius: 10px;
+  transition: background .2s linear;
 }
 
 .hero__button:hover {
@@ -112,6 +113,7 @@
   background-image: url('../../assets/img/icons/arrow-down.svg');
   background-repeat: no-repeat;
   border: none;
+  transition: background-image .3s linear, outline .3s linear;
 }
 
 .hero__arrow-button:hover {
