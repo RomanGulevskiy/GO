@@ -178,13 +178,13 @@
 .form__label--view-button:active {
   background-color: #6C0287;
   border-color: #FFFFFF;
-  color: #FFFFFF;
+  color: var(--main-font-color);
 }
 
 .form__input--type-radio:checked + .form__label--view-button {
   background-color: #6C0287;
   border-color: #FFFFFF;
-  color: #FFFFFF;
+  color: var(--main-font-color);
 }
 
 .form__label--input-text {

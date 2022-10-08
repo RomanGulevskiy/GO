@@ -15,7 +15,7 @@ body {
   font-family: Arial, sans-serif;
   font-style: normal;
   background-color: #1B1A1B;
-  color: #FFFFFF;
+  color: var(--main-font-color);
 }
 
 img, svg {
@@ -73,7 +73,7 @@ section {
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--main-font-color);
 }
 
 fieldset {

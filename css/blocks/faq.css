@@ -28,8 +28,8 @@
 }
 
 .faq__item:nth-child(even) {
-  background-color: #440F51;
-  color: #FFFFFF;
+  background-color: var(--main-color);
+  color: var(--main-font-color);
 }
 
 .faq__item:after {

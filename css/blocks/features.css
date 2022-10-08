@@ -14,7 +14,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: var(--main-font-color);
   background-repeat: no-repeat;
   background-size: cover;
   transition: transform .2s linear;

@@ -1,0 +1,8 @@
+:root {
+  --main-color: #440F51;
+  --main-font-color: #FFFFFF;
+}
+
+.reviews {
+  --avatar-gradient: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+}
