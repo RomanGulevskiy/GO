@@ -81,8 +81,9 @@ fieldset {
   border: none;
 }
 
-.hidden {
-  display: none;
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 
 input {
