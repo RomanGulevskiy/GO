@@ -46,5 +46,6 @@
   .contacts__phone:before {
     width: 2rem;
     height: 2rem;
+    left: -0.5rem;
   }
 }
