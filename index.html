@@ -49,11 +49,11 @@
 
           <div class="hero__info">
             <div class="hero__text">
-              <p class="hero__text_size_big">4</p>
+              <p class="hero__text hero__text_size_big">4</p>
               <p>Тематических зала</p>
             </div>
             <div class="hero__text">
-              <span class="hero__text_size_medium">NEW</span>
+              <span class="hero__text hero__text_size_medium">NEW</span>
               <p>Новейшая аппаратура</p>
             </div>
           </div>
@@ -93,7 +93,7 @@
           <div class="container booking__container">
             <h2 class="booking__title">Забронировать зал просто</h2>
             <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-              <fieldset class="form__fieldset_data_lounges">
+              <fieldset class="form__fieldset form__fieldset_data_lounges">
                 <legend class="form__legend">Выбери зал</legend>
                 <input class="form__input form__input_type_radio visually-hidden" type="radio" id="vibes" name="lounges" value="vibes">
                 <label class="form__label form__label_view_button" for="vibes">80's vibes</label>
@@ -105,89 +105,89 @@
                 <label class="form__label form__label_view_button" for="neon-style">Neon style</label>
               </fieldset>
 
-              <fieldset class="form__fieldset_data_entertainments">
+              <fieldset class="form__fieldset form__fieldset_data_entertainments">
                 <legend class="form__legend">Собери набор развлечений</legend>
-                <fieldset class="form__fieldset_direction_column">
-                  <legend class="form__block_data_legend">Приставка:</legend>
-                  <div class="form__input_direction_row">
+                <fieldset class="form__fieldset form__fieldset_direction_column">
+                  <legend class="form__block form__block_data_legend">Приставка:</legend>
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_radio" type="radio" id="playstation" name="consoles" value="playstation">
                     <label class="form__label" for="playstation">PlayStation 5</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_radio" type="radio" id="sega-mega-drive" name="consoles" value="sega-mega-drive">
                     <label class="form__label" for="sega-mega-drive">Sega Mega Drive</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_radio" type="radio" id="xbox" name="consoles" value="xbox">
                     <label class="form__label" for="xbox">X-box One S</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_radio" type="radio" id="dendy" name="consoles" value="dendy">
                     <label class="form__label" for="dendy">Dendy</label>
                   </div>
                 </fieldset>
-                <fieldset class="form__fieldset_direction_column">
-                  <legend class="form__block_data_legend">Настольные игры:</legend>
-                  <div class="form__input_direction_row">
+                <fieldset class="form__fieldset form__fieldset_direction_column">
+                  <legend class="form__block form__block_data_legend">Настольные игры:</legend>
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="jenga" name="tablegames" value="jenga">
                     <label class="form__label" for="jenga">Jenga</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="monopoly" name="tablegames" value="monopoly">
                     <label class="form__label" for="monopoly">Monopoly</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="munchkin" name="tablegames" value="munchkin">
                     <label class="form__label" for="munchkin">Манчкин</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="alias" name="tablegames" value="alias">
                     <label class="form__label" for="alias">Alias</label>
                   </div>
                 </fieldset>
-                <fieldset class="form__fieldset_direction_column">
-                  <legend class="form__block_data_legend">Дополнительно:</legend>
-                  <div class="form__input_direction_row">
+                <fieldset class="form__fieldset form__fieldset_direction_column">
+                  <legend class="form__block form__block_data_legend">Дополнительно:</legend>
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="karaoke" name="adds" value="karaoke">
                     <label class="form__label" for="karaoke">Караоке</label>
                   </div>
-                  <div class="form__input_direction_row">
+                  <div class="form__input form__input_direction_row">
                     <input class="form__input form__input_type_checkbox" type="checkbox" id="vr" name="adds" value="vr">
                     <label class="form__label" for="vr">VR</label>
                   </div>
                 </fieldset>
               </fieldset>
 
-              <fieldset class="form__fieldset_data_details">
+              <fieldset class="form__fieldset form__fieldset_data_details">
                 <legend class="form__legend">Выбери дату и время</legend>
-                <div class="form__block_data_datetime">
-                  <input class="form__input_type_text form__input_icon_arrow form__input_type_date" type="text" name="date" placeholder="Дата" aria-label="Дата" required>
-                  <input class="form__input_type_text form__input_icon_arrow form__input_type_time" type="text" name="time" placeholder="Время" aria-label="Время" required>
-                  <input class="form__input_type_text form__input_icon_arrow form__input_type_number" type="text" name="persons" placeholder="Сколько человек" aria-label="Сколько человек" required>
+                <div class="form__block form__block_data_datetime">
+                  <input class="form__input form__input_type_text form__input_icon_arrow form__input_type_date" type="text" name="date" placeholder="Дата" aria-label="Дата" required>
+                  <input class="form__input form__input_type_text form__input_icon_arrow form__input_type_time" type="text" name="time" placeholder="Время" aria-label="Время" required>
+                  <input class="form__input form__input_type_text form__input_icon_arrow form__input_type_number" type="text" name="persons" placeholder="Сколько человек" aria-label="Сколько человек" required>
                 </div>
-                <div class="form__block_direction_column form__block_data_person">
+                <div class="form__block form__block_direction_column form__block_data_person">
                   <div>
-                    <label class="form__label_input_text" for="name">Имя</label>
-                    <input class="form__input_type_text" type="text" id="name" name="name" required>
+                    <label class="form__label form__label_input_text" for="name">Имя</label>
+                    <input class="form__input form__input_type_text" type="text" id="name" name="name" required>
                   </div>
                   <div>
-                    <label class="form__label_input_text" for="lastname">Фамилия</label>
-                    <input class="form__input_type_text" type="text" id="lastname" name="lastname" required>
+                    <label class="form__label form__label_input_text" for="lastname">Фамилия</label>
+                    <input class="form__input form__input_type_text" type="text" id="lastname" name="lastname" required>
                   </div>
                 </div>
-                <div class="form__block_direction_column form__block_data_contacts">
+                <div class="form__block form__block_direction_column form__block_data_contacts">
                   <div>
-                    <label class="form__label_input_text" for="phone">Телефон</label>
-                    <input class="form__input_type_text form__input_type_tel" type="tel" id="phone" name="phone" required>
+                    <label class="form__label form__label_input_text" for="phone">Телефон</label>
+                    <input class="form__input form__input_type_text form__input_type_tel" type="tel" id="phone" name="phone" required>
                   </div>
                   <div>
-                    <label class="form__label_input_text" for="email">E-mail</label>
-                    <input class="form__input_type_text form__input_type_email" type="email" id="email" name="email" required>
+                    <label class="form__label form__label_input_text" for="email">E-mail</label>
+                    <input class="form__input form__input_type_text form__input_type_email" type="email" id="email" name="email" required>
                   </div>
                 </div>
               </fieldset>
 
-              <div class="form__container_size_medium">
+              <div class="form__container form__container_size_medium">
                 <button class="form__button" type="submit">Забронировать</button>
               </div>
             </form>
