@@ -75,6 +75,7 @@
 @import "blocks/form/__input/_type/form__input_type_radio.css";
 @import "blocks/form/__input/_type/form__input_type_time.css";
 @import "blocks/form/__label/_input/form__label_input_text.css";
+@import "blocks/form/__label/_input/form__label_input_text.css";
 @import "blocks/form/__label/form__label.css";
 @import "blocks/form/__label/_view/form__label_view_button.css";
 @import "blocks/form/__legend/form__legend.css";

@@ -1,9 +1,8 @@
 .form__input_type_text {
-  min-width: 100%;
+  width: 100%;
   padding: 1.2rem 2rem;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   color: #211E1E;
   transition: outline .2s linear;
 }
