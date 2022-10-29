@@ -51,6 +51,7 @@
     width: 13.5rem;
     font-size: 1.4rem;
     line-height: 1.8rem;
+    margin-bottom: 1rem;
   }
 
   .contacts__address:before {
