@@ -1,0 +1,19 @@
+.social__link {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .social__link {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social__link {
+    width: 3rem;
+    height: 3rem;
+  }
+}

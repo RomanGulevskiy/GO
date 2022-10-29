@@ -1,0 +1,27 @@
+.contacts__map {
+  width: 68rem;
+  height: 27.4rem;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .contacts__map {
+    width: 54.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .contacts__map {
+    width: 68.8rem;
+    height: 33.7rem;
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__map {
+    width: 28rem;
+    height: 19.4rem;
+    padding-top: 3.5rem;
+  }
+}

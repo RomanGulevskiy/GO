@@ -1,0 +1,26 @@
+.contacts__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15.6rem;
+}
+
+@media (max-width: 1200px) {
+  .contacts__info {
+    margin-bottom: 9.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .contacts__info {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 7.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__info {
+    margin-bottom: 6.3rem;
+  }
+}

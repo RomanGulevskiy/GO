@@ -1,0 +1,20 @@
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 58.7rem;
+  gap: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .navigation__list {
+    width: 43rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigation__list {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.form__input_type_text {
+  min-width: 100%;
+  padding: 1.2rem 2rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #211E1E;
+  transition: outline .2s linear;
+}
+
+.form__input_type_text:focus {
+  outline: 0.2rem solid var(--medium-purple-color);
+}
+
+.form__input_type_text::placeholder {
+  color: #211E1E;
+}

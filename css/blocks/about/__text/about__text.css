@@ -1,0 +1,16 @@
+.about__text {
+  display: inline-block;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .about__text {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .about__text {
+    margin-bottom: unset;
+  }
+}

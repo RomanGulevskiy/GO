@@ -1,0 +1,23 @@
+.reviews__container {
+  padding: 0 10rem;
+}
+
+@media (max-width: 1200px) {
+  .reviews__container {
+    max-width: 92.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .reviews__container {
+    max-width: 69.4rem;
+    padding: 0 6.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews__container {
+    max-width: 32rem;
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,32 @@
+.form__fieldset_data_entertainments {
+  width: 98rem;
+  margin: 0 auto 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .form__fieldset_data_entertainments {
+    width: 90.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__fieldset_data_entertainments {
+    width: 68.8rem;
+    flex-wrap: wrap;
+    justify-content: normal;
+    row-gap: 3.2rem;
+    column-gap: 6.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__fieldset_data_entertainments {
+    width: 28rem;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    column-gap: unset;
+    margin-bottom: 3rem;
+  }
+}

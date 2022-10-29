@@ -12,6 +12,8 @@
     <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>GO</title>
   </head>
@@ -20,6 +22,12 @@
       <div class="container header__container">
         <img class="header__logo" src="assets/img/logo.png" alt="Логотип GO" height="66">
         <nav class="navigation header__navigation">
+          <button class="navigation__button" type="button">
+            <svg width="100%" height="100%" class="navigation__button-image">
+              <title>Меню</title>
+              <use xlink:href="assets/img/icons/burger.svg#burger"></use>
+            </svg>
+          </button>
           <ul class="navigation__list">
             <li class="navigation__item"><a href="#lounges" class="navigation__link">Залы</a></li>
             <li class="navigation__item"><a href="#about" class="navigation__link">О нас</a></li>
@@ -41,11 +49,11 @@
 
           <div class="hero__info">
             <div class="hero__text">
-              <p class="hero__text--size-big">4</p>
+              <p class="hero__text_size_big">4</p>
               <p>Тематических зала</p>
             </div>
             <div class="hero__text">
-              <span class="hero__text--size-medium">NEW</span>
+              <span class="hero__text_size_medium">NEW</span>
               <p>Новейшая аппаратура</p>
             </div>
           </div>
@@ -57,14 +65,14 @@
 
       <section class="section features" id="features">
         <div class="container">
-          <h2 class="section__title">У нас есть все для классного отдыха с друзьями!</h2>
+          <h2 class="features__title">У нас есть все для классного отдыха с друзьями!</h2>
           <ul class="features__list">
-            <li class="features__item features__item--bg-vr">VR очки</li>
-            <li class="features__item features__item--bg-audio">Аудио-система 5.1 с&nbsp;отличным звуком</li>
-            <li class="features__item features__item--bg-karaoke">Караоке (4 микрофона)</li>
-            <li class="features__item features__item--bg-boardgames">Настольные игры</li>
-            <li class="features__item features__item--bg-movies">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
-            <li class="features__item features__item--bg-ps">РlаyStаtiоn 5</li>
+            <li class="features__item features__item_bg_vr">VR очки</li>
+            <li class="features__item features__item_bg_audio">Аудио-система 5.1 с&nbsp;отличным звуком</li>
+            <li class="features__item features__item_bg_karaoke">Караоке (4 микрофона)</li>
+            <li class="features__item features__item_bg_boardgames">Настольные игры</li>
+            <li class="features__item features__item_bg_movies">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
+            <li class="features__item features__item_bg_ps">РlаyStаtiоn 5</li>
           </ul>
         </div>
       </section>
@@ -72,11 +80,11 @@
       <section class="section lounges" id="lounges">
           <div class="container">
             <h2 class="lounges__title">Наши залы</h2>
-            <ul class="list lounges__list">
-              <li class="item lounges__item lounges__item--lounge-vibes">80's vibes</li>
-              <li class="item lounges__item lounges__item--lounge-star-wars">Star Wars</li>
-              <li class="item lounges__item lounges__item--lounge-wild-west">Wild west</li>
-              <li class="item lounges__item lounges__item--lounge-neon-style">Neon style</li>
+            <ul class="lounges__list">
+              <li class="lounges__item lounges__item_lounge_vibes">80's vibes</li>
+              <li class="lounges__item lounges__item_lounge_star-wars">Star Wars</li>
+              <li class="lounges__item lounges__item_lounge_wild-west">Wild west</li>
+              <li class="lounges__item lounges__item_lounge_neon">Neon style</li>
             </ul>
           </div>
         </section>
@@ -85,101 +93,101 @@
           <div class="container booking__container">
             <h2 class="booking__title">Забронировать зал просто</h2>
             <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-              <fieldset class="form__fieldset-lounges">
-                <legend class="form__legend form__legend-lounges">Выбери зал</legend>
-                <input class="form__input form__input--type-radio visually-hidden" type="radio" id="vibes" name="lounges" value="vibes">
-                <label class="form__label form__label--view-button" for="vibes">80's vibes</label>
-                <input class="form__input form__input--type-radio visually-hidden" type="radio" id="star-wars" name="lounges" value="star-wars">
-                <label class="form__label form__label--view-button" for="star-wars">Star Wars</label>
-                <input class="form__input form__input--type-radio visually-hidden" type="radio" id="wild-west" name="lounges" value="wild-west">
-                <label class="form__label form__label--view-button" for="wild-west">Wild west</label>
-                <input class="form__input form__input--type-radio visually-hidden" type="radio" id="neon-style" name="lounges" value="neon-style">
-                <label class="form__label form__label--view-button" for="neon-style">Neon style</label>
+              <fieldset class="form__fieldset_data_lounges">
+                <legend class="form__legend">Выбери зал</legend>
+                <input class="form__input form__input_type_radio visually-hidden" type="radio" id="vibes" name="lounges" value="vibes">
+                <label class="form__label form__label_view_button" for="vibes">80's vibes</label>
+                <input class="form__input form__input_type_radio visually-hidden" type="radio" id="star-wars" name="lounges" value="star-wars">
+                <label class="form__label form__label_view_button" for="star-wars">Star Wars</label>
+                <input class="form__input form__input_type_radio visually-hidden" type="radio" id="wild-west" name="lounges" value="wild-west">
+                <label class="form__label form__label_view_button" for="wild-west">Wild west</label>
+                <input class="form__input form__input_type_radio visually-hidden" type="radio" id="neon-style" name="lounges" value="neon-style">
+                <label class="form__label form__label_view_button" for="neon-style">Neon style</label>
               </fieldset>
 
-              <fieldset class="form__fieldset-entertainments">
-                <legend class="form__legend form__legend-entertainments">Собери набор развлечений</legend>
-                <fieldset class="form__fieldset--direction-column">
-                  <legend class="form__block-legend">Приставка:</legend>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-radio" type="radio" id="playstation" name="consoles" value="playstation">
+              <fieldset class="form__fieldset_data_entertainments">
+                <legend class="form__legend">Собери набор развлечений</legend>
+                <fieldset class="form__fieldset_direction_column">
+                  <legend class="form__block_data_legend">Приставка:</legend>
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_radio" type="radio" id="playstation" name="consoles" value="playstation">
                     <label class="form__label" for="playstation">PlayStation 5</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-radio" type="radio" id="sega-mega-drive" name="consoles" value="sega-mega-drive">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_radio" type="radio" id="sega-mega-drive" name="consoles" value="sega-mega-drive">
                     <label class="form__label" for="sega-mega-drive">Sega Mega Drive</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-radio" type="radio" id="xbox" name="consoles" value="xbox">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_radio" type="radio" id="xbox" name="consoles" value="xbox">
                     <label class="form__label" for="xbox">X-box One S</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-radio" type="radio" id="dendy" name="consoles" value="dendy">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_radio" type="radio" id="dendy" name="consoles" value="dendy">
                     <label class="form__label" for="dendy">Dendy</label>
                   </div>
                 </fieldset>
-                <fieldset class="form__fieldset--direction-column">
-                  <legend class="form__block-legend">Настольные игры:</legend>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="jenga" name="tablegames" value="jenga">
+                <fieldset class="form__fieldset_direction_column">
+                  <legend class="form__block_data_legend">Настольные игры:</legend>
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="jenga" name="tablegames" value="jenga">
                     <label class="form__label" for="jenga">Jenga</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="monopoly" name="tablegames" value="monopoly">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="monopoly" name="tablegames" value="monopoly">
                     <label class="form__label" for="monopoly">Monopoly</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="munchkin" name="tablegames" value="munchkin">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="munchkin" name="tablegames" value="munchkin">
                     <label class="form__label" for="munchkin">Манчкин</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="alias" name="tablegames" value="alias">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="alias" name="tablegames" value="alias">
                     <label class="form__label" for="alias">Alias</label>
                   </div>
                 </fieldset>
-                <fieldset class="form__fieldset--direction-column">
-                  <legend class="form__block-legend">Дополнительно:</legend>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="karaoke" name="adds" value="karaoke">
+                <fieldset class="form__fieldset_direction_column">
+                  <legend class="form__block_data_legend">Дополнительно:</legend>
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="karaoke" name="adds" value="karaoke">
                     <label class="form__label" for="karaoke">Караоке</label>
                   </div>
-                  <div class="form__input-row">
-                    <input class="form__input form__input--type-checkbox" type="checkbox" id="vr" name="adds" value="vr">
+                  <div class="form__input_direction_row">
+                    <input class="form__input form__input_type_checkbox" type="checkbox" id="vr" name="adds" value="vr">
                     <label class="form__label" for="vr">VR</label>
                   </div>
                 </fieldset>
               </fieldset>
 
-              <fieldset class="form__fieldset-details">
-                <legend class="form__legend form__legend-details">Выбери дату и время</legend>
-                <div class="form__block--data-datetime">
-                  <input class="form__input--type-text form__input--icon-arrow form__input--type-date" type="text" name="date" placeholder="Дата" aria-label="Дата" required>
-                  <input class="form__input--type-text form__input--icon-arrow form__input--type-time" type="text" name="time" placeholder="Время" aria-label="Время" required>
-                  <input class="form__input--type-text form__input--icon-arrow form__input--type-number" type="text" name="persons" placeholder="Сколько человек" aria-label="Сколько человек" required>
+              <fieldset class="form__fieldset_data_details">
+                <legend class="form__legend">Выбери дату и время</legend>
+                <div class="form__block_data_datetime">
+                  <input class="form__input_type_text form__input_icon_arrow form__input_type_date" type="text" name="date" placeholder="Дата" aria-label="Дата" required>
+                  <input class="form__input_type_text form__input_icon_arrow form__input_type_time" type="text" name="time" placeholder="Время" aria-label="Время" required>
+                  <input class="form__input_type_text form__input_icon_arrow form__input_type_number" type="text" name="persons" placeholder="Сколько человек" aria-label="Сколько человек" required>
                 </div>
-                <div class="form__block--direction-column form__block--data-person">
+                <div class="form__block_direction_column form__block_data_person">
                   <div>
-                    <label class="form__label--input-text" for="name">Имя</label>
-                    <input class="form__input--type-text" type="text" id="name" name="name" required>
+                    <label class="form__label_input_text" for="name">Имя</label>
+                    <input class="form__input_type_text" type="text" id="name" name="name" required>
                   </div>
                   <div>
-                    <label class="form__label--input-text" for="lastname">Фамилия</label>
-                    <input class="form__input--type-text" type="text" id="lastname" name="lastname" required>
+                    <label class="form__label_input_text" for="lastname">Фамилия</label>
+                    <input class="form__input_type_text" type="text" id="lastname" name="lastname" required>
                   </div>
                 </div>
-                <div class="form__block--direction-column form__block--data-contacts">
+                <div class="form__block_direction_column form__block_data_contacts">
                   <div>
-                    <label class="form__label--input-text" for="phone">Телефон</label>
-                    <input class="form__input--type-text form__input--type-tel" type="tel" id="phone" name="phone" required>
+                    <label class="form__label_input_text" for="phone">Телефон</label>
+                    <input class="form__input_type_text form__input_type_tel" type="tel" id="phone" name="phone" required>
                   </div>
                   <div>
-                    <label class="form__label--input-text" for="email">E-mail</label>
-                    <input class="form__input--type-text form__input--type-email" type="email" id="email" name="email" required>
+                    <label class="form__label_input_text" for="email">E-mail</label>
+                    <input class="form__input_type_text form__input_type_email" type="email" id="email" name="email" required>
                   </div>
                 </div>
               </fieldset>
 
-              <div class="form__container--size-medium">
+              <div class="form__container_size_medium">
                 <button class="form__button" type="submit">Забронировать</button>
               </div>
             </form>
@@ -187,7 +195,7 @@
         </section>
 
         <section class="section about" id="about">
-          <div class="container">
+          <div class="container about__container">
             <h2 class="about__title">О нас</h2>
 
             <img class="about__picture" src="assets/img/about.png" alt="Доступные услуги" height="596">
@@ -200,11 +208,12 @@
                 <p class="about__paragraph">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
                                             разработками со всего мира.</p>
               </div>
-              <blockquote class="blockquote">
-                <p class="blockquote__text">GAME OVER - это&nbsp;место незабываемых впечатлений</p>
-                <p class="cite"><cite class="cite__text">Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
-              </blockquote>
             </div>
+
+            <blockquote class="blockquote">
+              <p class="blockquote__text">GAME OVER - это&nbsp;место незабываемых впечатлений</p>
+              <p class="cite"><cite class="cite__text">Аркадий Абакшин, создатель игровой территории GAME&nbsp;OVER</cite></p>
+            </blockquote>
           </div>
         </section>
 
@@ -227,18 +236,18 @@
                   <div class="reviews__avatar-image">
                     <img src="assets/img/avatar-2.png" alt="Девушка в шляпе" height="280">
                   </div>
-                  <figcaption class="reviews__avatar-title">Оксана Григорьева</figcaption>
+                  <figcaption class="reviews__avatar-title">Макс Самойлов</figcaption>
                 </figure>
-                <p class="reviews__text">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+                <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
               </li>
               <li class="reviews__item">
                 <figure class="reviews__avatar">
                   <div class="reviews__avatar-image">
                     <img src="assets/img/avatar-3.png" alt="Парень в водолазке" height="280">
                   </div>
-                  <figcaption class="reviews__avatar-title">Никита Ященко</figcaption>
+                  <figcaption class="reviews__avatar-title">Макс Самойлов</figcaption>
                 </figure>
-                <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
+                <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
               </li>
             </ul>
           </div>
@@ -264,8 +273,8 @@
         <div class="contacts__info">
           <div>
             <address>
-              <p class="contacts__address">г. Москва ул.&nbsp;Аквамарина, 16</p>
-              <p class="contacts__phone"><a class="link contacts__link" href="tel:89509302893">8(950)9302893</a></p>
+              <p class="contacts__address">г. Москва ул.&nbsp;Усачёва,&nbsp;29.&nbsp;к3</p>
+              <p class="contacts__phone"><a class="link contacts__link" href="tel:89509302893">8 (950) 9302893</a></p>
               <p class="contacts__email"><a class="link contacts__link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>
             </address>
             <nav>
@@ -305,13 +314,11 @@
               </ul>
             </nav>
           </div>
-          <div>
-            <img src="assets/img/map.jpg" alt="Схема проезда" height="274">
-          </div>
+          <img class="contacts__map" src="assets/img/map.png" alt="Схема проезда" height="550">
         </div>
         <div class="contacts__copyright">
           <p class="contacts__copyright-text">© Game Over, 2022</p>
-          <p class="contacts__copyright-text contacts__copyright-text--align-right">Design by Anastasia&nbsp;Ilina <a class="contacts__copyright-email" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a></p>
+          <p class="contacts__copyright-text contacts__copyright-text_align_right">Design by Anastasia&nbsp;Ilina <a class="contacts__copyright-email" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a></p>
         </div>
       </div>
     </footer>

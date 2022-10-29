@@ -1,0 +1,24 @@
+.reviews__avatar {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .reviews__avatar {
+    margin-right: 3.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .reviews__avatar {
+    margin-right: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews__avatar {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 1.6rem;
+  }
+}

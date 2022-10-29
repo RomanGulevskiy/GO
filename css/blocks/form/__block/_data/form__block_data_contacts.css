@@ -1,0 +1,21 @@
+.form__block_data_contacts {
+  flex-basis: 30rem;
+}
+
+@media (max-width: 1200px) {
+  .form__block_data_contacts {
+    flex-basis: 25.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__block_data_contacts {
+    flex-basis: 30rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__block_data_contacts {
+    flex-basis: 28rem;
+  }
+}

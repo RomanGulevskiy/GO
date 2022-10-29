@@ -1,0 +1,23 @@
+.form__block_data_datetime {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3.6rem;
+}
+
+@media (max-width: 800px) {
+  .form__block_data_datetime {
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    margin-bottom: 4.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__block_data_datetime {
+    flex-wrap: wrap;
+    gap: 1.5rem 1.2rem;
+  }
+}

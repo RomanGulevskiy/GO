@@ -1,0 +1,9 @@
+.about__text-container {
+  grid-area: text;
+}
+
+@media (max-width: 800px) {
+  .about__text-container {
+    align-self: center;
+  }
+}

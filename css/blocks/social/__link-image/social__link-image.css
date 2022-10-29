@@ -1,0 +1,19 @@
+.social__link-image {
+  fill: #FFFFFF;
+  transition: fill .2s linear;
+  object-fit: cover;
+}
+
+.social__link-image:hover {
+  fill: #EADEED;
+}
+
+.social__link-image:focus {
+  fill: #EADEED;
+  outline: 0.1rem solid #CD06FF;
+}
+
+.social__link-image:active {
+  fill: #CD06FF;
+  filter: drop-shadow(0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+}

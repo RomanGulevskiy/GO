@@ -1,0 +1,36 @@
+.form__input_type_radio {
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 1.2rem;
+  transition: outline .2s linear;
+}
+
+.form__input_type_radio:focus {
+  outline: 0.1rem solid var(--medium-purple-color);
+}
+
+.form__input_type_radio:focus + .form__label_view_button {
+  background-color: var(--color-white);
+  border-color: var(--dark-violet-cover);
+}
+
+.form__input_type_radio:checked + .form__label_view_button {
+  background-color: var(--dark-purple-color);
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
+@media (max-width: 800px) {
+  .form__input_type_radio {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__input_type_radio {
+    width: 3rem;
+    height: 3rem;
+  }
+}

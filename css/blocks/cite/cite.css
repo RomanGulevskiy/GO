@@ -1,0 +1,26 @@
+.cite {
+  position: relative;
+  width: 38.9rem;
+  margin-left: 11rem;
+}
+
+@media (max-width: 1200px) {
+  .cite {
+    width: 33rem;
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .cite {
+    width: 32rem;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .cite {
+    width: 28rem;
+    margin: 0;
+  }
+}

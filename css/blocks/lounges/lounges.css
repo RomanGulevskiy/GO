@@ -1,0 +1,26 @@
+.lounges {
+  padding-bottom: 10rem;
+}
+
+@media (max-width: 1200px) {
+  .lounges {
+    padding-bottom: 7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .lounges {
+    padding-bottom: 6.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lounges {
+    padding-bottom: 3rem;
+  }
+}
+
+
+
+
+

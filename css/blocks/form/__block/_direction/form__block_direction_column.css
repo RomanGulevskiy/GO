@@ -1,0 +1,5 @@
+.form__block_direction_column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}

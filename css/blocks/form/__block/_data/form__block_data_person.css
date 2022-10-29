@@ -1,0 +1,21 @@
+.form__block_data_person {
+  flex-basis: 28rem;
+}
+
+@media (max-width: 1200px) {
+  .form__block_data_person {
+    flex-basis: 25.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__block_data_person {
+    flex-basis: 28rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__block_data_person {
+    margin-bottom: 3.5rem;
+  }
+}

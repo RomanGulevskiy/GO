@@ -1,0 +1,24 @@
+.form__container_size_medium {
+  width: 98rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1200px) {
+  .form__container_size_medium {
+    width: 90.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__container_size_medium {
+    width: 68.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__container_size_medium {
+    width: 28rem;
+  }
+}

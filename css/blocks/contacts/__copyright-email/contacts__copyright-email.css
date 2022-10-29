@@ -1,0 +1,7 @@
+.contacts__copyright-email {
+  transition: color .2s linear;
+}
+
+.contacts__copyright-email:hover {
+  color: #CD06FF;
+}

@@ -1,0 +1,43 @@
+.hero__arrow-button {
+  display: block;
+  width: 9.7rem;
+  height: 9.7rem;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 9rem;
+  z-index: 10;
+  background-color: transparent;
+  background-image: url('../../../../assets/img/icons/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  transition: background-image .3s linear, outline .3s linear;
+}
+
+.hero__arrow-button:hover {
+  background-image: url('../../../../assets/img/icons/arrow-down-hover.svg');
+}
+
+.hero__arrow-button:focus {
+  outline: 1px solid #CD06FF;
+}
+
+.hero__arrow-button:active {
+  background-image: url('../../../../assets/img/icons/arrow-down-active.svg');
+}
+
+@media (max-width: 1200px) {
+  .hero__arrow-button {
+    width: 6.7rem;
+    height: 6.7rem;
+    bottom: 4.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero__arrow-button {
+    display: none;
+  }
+}

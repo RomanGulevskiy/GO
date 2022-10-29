@@ -1,6 +1,8 @@
 html {
   position: relative;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: calc(10 * 100vw / 1440);
 }
 
 *,
@@ -14,11 +16,12 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   font-style: normal;
+  font-weight: 400;
   background-color: #1B1A1B;
-  color: var(--main-font-color);
+  color: var(--color-white);
 }
 
-img, svg {
+img {
   max-width: 100%;
   max-height: 100%;
   height: auto;
@@ -53,27 +56,8 @@ iframe {
   border: none;
 }
 
-.container {
-  max-width: 1180px;
-  /*padding: 0 30px;*/
-  margin: 0 auto;
-}
-
 section {
-  padding: 50px 0;
-}
-
-.section__title {
-  width: 980px;
-  margin: 0 auto 40px;
-  padding: 0 135px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--main-font-color);
+  padding: 5rem 0;
 }
 
 fieldset {
@@ -92,4 +76,34 @@ input {
 
 input:focus {
   outline: none;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: calc(10 * 100vw / 1024);
+  }
+
+  section {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: calc(10 * 100vw / 768);
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: calc(10 * 100vw / 320);
+  }
+
+  section {
+    padding: 1.5rem 0;
+  }
 }

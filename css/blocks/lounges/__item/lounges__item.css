@@ -1,0 +1,40 @@
+.lounges__item {
+  display: inline-block;
+  padding: 9.4rem 16.4rem;
+  flex-basis: 58rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .lounges__item {
+    padding: 7.3rem 9.5rem;
+    flex-basis: 44.2rem;
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .lounges__item {
+    padding: 6rem 10.2rem 3.9rem;
+    flex-basis: 33.4rem;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lounges__item {
+    padding: 5rem 10rem;
+    flex-basis: 100%;
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+  }
+}

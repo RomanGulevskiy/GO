@@ -1,0 +1,28 @@
+.hero__text_size_big {
+  display: block;
+  font-weight: 900;
+  font-size: 10rem;
+  line-height: 14.1rem;
+  color: #CD06FF;
+}
+
+@media (max-width: 1200px) {
+  .hero__text_size_big {
+    font-size: 8rem;
+    line-height: 11.3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero__text_size_big {
+    font-size: 5rem;
+    line-height: 7.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__text_size_big {
+    font-size: 2.6rem;
+    line-height: 3.7rem;
+  }
+}

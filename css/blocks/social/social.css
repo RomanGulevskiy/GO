@@ -1,0 +1,29 @@
+.social {
+  width: 28rem;
+  padding: 3.5rem 0 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .social {
+    width: 23.8rem;
+    padding: 4rem 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .social {
+    margin: 0 auto;
+    padding: 2.7rem 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .social {
+    width: 18rem;
+    padding: 1rem 0 0;
+  }
+}

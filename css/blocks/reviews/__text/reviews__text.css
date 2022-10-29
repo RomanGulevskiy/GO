@@ -1,0 +1,36 @@
+.reviews__text {
+  display: inline-block;
+  width: 68rem;
+  vertical-align: top;
+  padding-top: 5.8rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .reviews__text {
+    width: 51.5rem;
+    padding-top: 3.3rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .reviews__text {
+    width: 39.3rem;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews__text {
+    width: 100%;
+    padding-top: 0;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}

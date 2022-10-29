@@ -1,0 +1,21 @@
+.form__fieldset_direction_column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 800px) {
+  .form__fieldset_direction_column {
+    flex-wrap: wrap;
+    flex-basis: 30.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__fieldset_direction_column {
+    flex-basis: 100%;
+  }
+}

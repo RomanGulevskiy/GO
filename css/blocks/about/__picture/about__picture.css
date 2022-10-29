@@ -1,0 +1,23 @@
+.about__picture {
+  display: inline-block;
+  max-width: 60rem;
+  grid-area: image;
+}
+
+@media (max-width: 1200px) {
+  .about__picture {
+    max-width: 42rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .about__picture {
+    max-width: 38.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__picture {
+    width: 28rem;
+  }
+}

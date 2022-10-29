@@ -1,0 +1,17 @@
+.form__input_type_number {
+  flex-basis: 100%;
+}
+
+@media (max-width: 800px) {
+  .form__input_type_number {
+    flex-basis: 30rem;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__input_type_number {
+    flex-basis: 28rem;
+    min-width: 0;
+  }
+}

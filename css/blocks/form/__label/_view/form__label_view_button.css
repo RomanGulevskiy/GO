@@ -1,0 +1,55 @@
+.form__label_view_button {
+  flex-basis: 25rem;
+  padding: 0.4rem 1.2rem 0.5rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: var(--color-white);
+  border: 0.3rem solid var(--color-white);
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background-color .2s linear, border-color .2s linear, color .2s linear;
+}
+
+.form__label_view_button:hover {
+  background-color: var(--light-purple-color);
+  border-color: var(--dark-violet-cover);
+}
+
+.form__label_view_button:active {
+  background-color: var(--dark-purple-color);
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .form__label_view_button {
+    flex-basis: 18rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    border-radius: 0.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__label_view_button {
+    flex-basis: 15rem;
+    padding: 0.9rem 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__label_view_button {
+    flex-basis: 13rem;
+    padding: 0.6rem 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border-radius: 0.4rem;
+  }
+}

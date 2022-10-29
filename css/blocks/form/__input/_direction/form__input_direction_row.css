@@ -1,0 +1,8 @@
+.form__input_direction_row {
+  display: flex;
+  align-items: center;
+}
+
+.form__input_direction_row:not(:last-child) {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+.form__input_type_checkbox {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.2rem;
+  transition: outline .2s linear;
+}
+
+.form__input_type_checkbox:focus {
+  outline: 1px solid var(--medium-purple-color);
+}
+
+@media (max-width: 800px) {
+  .form__input_type_checkbox {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__input_type_checkbox {
+    width: 3rem;
+    height: 3rem;
+  }
+}

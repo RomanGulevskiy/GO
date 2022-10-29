@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+  .hero {
+    padding: 0 0 4.15rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    padding: 0 0 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 0 0 2.3rem;
+  }
+}

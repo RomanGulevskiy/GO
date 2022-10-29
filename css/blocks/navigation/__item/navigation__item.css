@@ -1,0 +1,12 @@
+.navigation__item {
+  font-size: 2.2rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .navigation__item {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}

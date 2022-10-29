@@ -1,0 +1,12 @@
+.lounges__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 480px) {
+  .lounges__list {
+    gap: 1rem;
+  }
+}

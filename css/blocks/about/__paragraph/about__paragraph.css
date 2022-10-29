@@ -1,0 +1,38 @@
+.about__paragraph {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin: 0;
+}
+
+.about__paragraph:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .about__paragraph {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .about__paragraph:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .about__paragraph {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .about__paragraph:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}

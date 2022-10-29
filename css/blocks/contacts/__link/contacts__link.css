@@ -1,0 +1,14 @@
+.contacts__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: inherit;
+}
+
+@media (max-width: 480px) {
+  .contacts__link {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}

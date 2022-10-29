@@ -1,0 +1,9 @@
+.contacts__copyright-text_align_right {
+  text-align: right;
+}
+
+@media (max-width: 480px) {
+  .contacts__copyright-text_align_right {
+    text-align: center;
+  }
+}

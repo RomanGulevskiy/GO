@@ -1,0 +1,18 @@
+.reviews__item:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 480px) {
+  .reviews__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .reviews__item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+

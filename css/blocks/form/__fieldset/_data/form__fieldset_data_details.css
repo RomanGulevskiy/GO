@@ -1,0 +1,29 @@
+.form__fieldset_data_details {
+  width: 98rem;
+  margin: 0 auto 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 5rem;
+}
+
+
+@media (max-width: 1200px) {
+  .form__fieldset_data_details {
+    width: 90.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .form__fieldset_data_details {
+    width: 68.8rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__fieldset_data_details {
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+}

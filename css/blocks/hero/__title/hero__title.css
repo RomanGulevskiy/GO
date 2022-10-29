@@ -1,0 +1,32 @@
+.hero__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 15rem;
+  letter-spacing: -0.1em;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .hero__title {
+    margin-bottom: 2rem;
+    font-size: 12rem;
+    letter-spacing: -0.1em;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero__title {
+    font-size: 8.6rem;
+    letter-spacing: -0.1em;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    margin-bottom: 0.6rem;
+    font-size: 3.5rem;
+    letter-spacing: -0.08em;
+  }
+}

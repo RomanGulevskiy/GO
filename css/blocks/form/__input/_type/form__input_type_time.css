@@ -1,0 +1,16 @@
+.form__input_type_time {
+  flex-basis: 13.4rem;
+  min-width: 13.4rem;
+}
+
+@media (max-width: 800px) {
+  .form__input_type_time {
+    margin-right: 10.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__input_type_time {
+    margin-right: 0;
+  }
+}

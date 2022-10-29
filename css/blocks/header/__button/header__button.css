@@ -1,0 +1,40 @@
+.header__button {
+  padding: 1.2rem 3.2rem;
+  background: none;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+  border: 0.3rem solid #CD06FF;
+  border-radius: 1rem;
+  transition: background .2s linear, border-color .2s linear;
+}
+
+.header__button:hover {
+  background: #6C0287;
+  border-color: #6C0287;
+}
+
+.header__button:focus {
+  background: #6C0287;
+}
+
+.header__button:active {
+  background: #640AA3;
+}
+
+@media (max-width: 1200px) {
+  .header__button {
+    padding: 1rem 2.6rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    border-radius: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__button {
+    display: none;
+  }
+}
