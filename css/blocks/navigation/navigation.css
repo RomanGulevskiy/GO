@@ -1,9 +1,5 @@
-.navigation {
-
-}
-
 @media (max-width: 800px) {
   .navigation {
-    order: -1;
+    display: none;
   }
 }

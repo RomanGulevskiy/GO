@@ -14,7 +14,10 @@
 @import "blocks/navigation/__list/navigation__list.css";
 @import "blocks/navigation/__item/navigation__item.css";
 @import "blocks/navigation/__link/navigation__link.css";
-@import "blocks/navigation/__button/navigation__button.css";
+
+@import "blocks/menu/menu.css";
+@import "blocks/menu/__button/menu__button.css";
+@import "blocks/menu/__button-image/menu__button-image.css";
 
 @import "blocks/hero/hero.css";
 @import "blocks/hero/__button/hero__button.css";

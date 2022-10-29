@@ -1,9 +1,10 @@
-.navigation__button {
+.menu__button {
   display: none;
 }
 
 @media (max-width: 800px) {
-  .navigation__button {
+  .menu__button {
+    order: -1;
     display: block;
     border: none;
     width: 5.4rem;
@@ -13,8 +14,7 @@
 }
 
 @media (max-width: 480px) {
-  .navigation__button {
+  .menu__button {
     width: 3.9rem;
-    height: 2rem;
   }
 }

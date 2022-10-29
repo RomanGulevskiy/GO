@@ -1,17 +1,17 @@
-.navigation__button-image {
+.menu__button-image {
   fill: #6C0287;
   transition: fill .2s linear;
   object-fit: cover;
 }
 
-.navigation__button-image:hover {
+.menu__button-image:hover {
   fill: #CD06FF;
 }
 
-.navigation__button-image:focus {
+.menu__button-image:focus {
   fill: #840AA3;
 }
 
-.navigation__button-image:active {
+.menu__button-image:active {
   fill: #840AA3;
 }
