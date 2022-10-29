@@ -3,6 +3,13 @@
   line-height: 2.5rem;
 }
 
+@media (max-width: 1200px) {
+  .form__label {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+}
+
 @media (max-width: 480px) {
   .form__label {
     font-size: 1.6rem;
