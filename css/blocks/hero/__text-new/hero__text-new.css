@@ -1,4 +1,4 @@
-.hero__text_size_medium {
+.hero__text-new {
   display: block;
   font-weight: 900;
   font-size: 7.5rem;
@@ -9,21 +9,21 @@
 }
 
 @media (max-width: 1200px) {
-  .hero__text_size_medium {
+  .hero__text-new {
     font-size: 6rem;
     line-height: 8.5rem;
   }
 }
 
 @media (max-width: 800px) {
-  .hero__text_size_medium {
+  .hero__text-new {
     font-size: 4rem;
     line-height: 5.6rem;
   }
 }
 
 @media (max-width: 480px) {
-  .hero__text_size_medium {
+  .hero__text-new {
     font-size: 2.2rem;
     line-height: 3.1rem;
   }

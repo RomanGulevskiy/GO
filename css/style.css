@@ -26,9 +26,10 @@
 @import "blocks/hero/__info/hero__info.css";
 @import "blocks/hero/__title/hero__title.css";
 @import "blocks/hero/__subtitle/hero__subtitle.css";
+@import "blocks/hero/__paragraph/hero__paragraph.css";
 @import "blocks/hero/__text/hero__text.css";
-@import "blocks/hero/__text/_size/hero__text_size_big.css";
-@import "blocks/hero/__text/_size/hero__text_size_medium.css";
+@import "blocks/hero/__text-num/hero__text-num.css";
+@import "blocks/hero/__text-new/hero__text-new.css";
 
 @import "blocks/features/features.css";
 @import "blocks/features/__title/features__title.css";
